@@ -1,0 +1,20 @@
+body {
+    max-width: 600px;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    height: 150px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: skyblue;
+    align-items: center;
+    justify-items: center;
+}
+
+#kevin-profile-pic {
+    max-height: 120px;
+    grid-template-columns: 1/2;
+    grid-template-rows: 1/2;
+}
+
