@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rubik:wght@300&display=swap');
+
 body {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    text-shadow: 3px 3px rgb(241, 241, 241);
+}
+
+p, li {
+    font-family: 'Rubik', sans-serif;
 }
 
 header {
@@ -10,11 +22,38 @@ header {
     background-color: skyblue;
     align-items: center;
     justify-items: center;
+    border-radius: 5px;
+    box-shadow: 6px 6px rgb(226, 231, 231);
 }
 
 #kevin-profile-pic {
     max-height: 120px;
     grid-template-columns: 1/2;
     grid-template-rows: 1/2;
+    border-radius: 5px;
+}
+
+hr {
+    margin: 0 15px;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: skyblue;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 6px 6px rgb(226, 231, 231);
+}
+
+#update {
+    color: white;
 }
 
