@@ -11,26 +11,35 @@ h1, h2 {
     text-shadow: 3px 3px rgb(250, 222, 180);
 }
 
+h1 {
+    font-size: 1.8em;
+    padding: 0 10px;
+}
+
 p, li {
     font-family: 'Rubik', sans-serif;
 }
 
 header {
-    height: 150px;
+    width: 100%;
+    min-height: 150px;
     display: grid;
-    grid-template-columns: 30% 70%;
-    background-color: rgb(253, 190, 94);
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
     align-items: center;
     justify-items: center;
+    background-color: rgb(253, 190, 94);
     border-radius: 5px;
     box-shadow: 6px 6px rgb(226, 231, 231);
 }
 
 #kevin-profile-pic {
     max-height: 120px;
+    max-width: 90%;
     grid-column: 1/2;
-    grid-row: 1/2;
     border-radius: 5px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 hr {
