@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rubik:wght@300&display=swap');
+
+body {
+    margin: 0 auto 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Berkshire Swash', cursive;
+    margin: 5px;
+    color: black;
+    text-shadow: 3px 3px rgb(250, 222, 180);
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+    background-color: rgb(253, 190, 94);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+main {
+    display: inline-block;
+}
+
+footer {
+    background-color: rgb(253, 190, 94);
+    padding: 5px 0px;
+    text-align: center;
+}
