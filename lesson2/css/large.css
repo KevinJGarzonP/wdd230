@@ -9,7 +9,14 @@
     }
 
     main {
+        max-width: 900px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    section {
+        border: 10px black;
+    }
+
+
 }
