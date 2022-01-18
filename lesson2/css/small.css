@@ -42,6 +42,10 @@ a {
 p {
     font-family: 'Rubik', sans-serif;
     padding: 10px;
+    margin: 0px;
+}
+
+#explanation {
     height: 190px;
 }
 
