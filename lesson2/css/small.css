@@ -6,7 +6,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'Berkshire Swash', cursive;
-    margin: 5px;
+    margin: 0px;
     color: black;
     text-shadow: 3px 3px rgb(250, 222, 180);
 }
@@ -19,22 +19,34 @@ h2 {
     font-size: 1.2em;
 }
 
+h3 {
+    background-color: rgb(252, 230, 193);
+    text-align: center;
+    padding: 10px 0;
+}
+
 h4 {
     font-family: 'Rubik', sans-serif;
     font-size: 1.2em;
     margin: 0;
+    padding-left: 10px;
+    height: 27px;
 }
 
 a {
     font-family: 'Rubik', sans-serif;
+    padding: 0 10px;
+    height: 20px;
 }
 
 p {
     font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    height: 190px;
 }
 
 img {
-    width: 95%;
+    max-width: 95%;
     margin: 0 auto;
 }
 
@@ -51,16 +63,15 @@ header {
 main {
     margin: 0 auto;
     max-width: 300px;
-    display: inline-block;
-    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 section {
     background-color: rgb(253, 247, 237);
-    grid-gap: 10px;
-    border: 10px black;
     display: grid;
     grid-template-rows: 50px auto auto auto auto;
+    max-width: 100%;
 }
 
 #rolex-section {

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 56.25em) {
 
     h1 {
         font-size: 3em;
@@ -14,9 +14,15 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    section {
-        border: 10px black;
+    #rolex-section {
+        grid-template-columns: 1/2;
     }
 
+    #tesla-section {
+        grid-template-columns: 2/3;
+    }
 
+    #cinecol-section {
+        grid-template-columns: 3/4;
+    }
 }

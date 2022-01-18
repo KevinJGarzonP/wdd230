@@ -16,6 +16,10 @@ h1 {
     padding: 0 10px;
 }
 
+h3 {
+    background-color: rgb(226, 231, 231);
+}
+
 p, li {
     font-family: 'Rubik', sans-serif;
 }
