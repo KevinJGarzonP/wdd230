@@ -125,10 +125,8 @@ section {
 
 #color-palette > div {
     border-radius: 50%;
-    width: 25vh;
-    max-width: 200px;
-    height: 25vh;
-    max-height: 200px;
+    width: 150px;
+    height: 150px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50% 50%;
