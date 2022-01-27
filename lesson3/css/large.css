@@ -1,5 +1,10 @@
 @media only screen and (min-width: 56.25em) {
 
+    body {
+        margin: 0 auto 0 auto;
+        max-width: 900px;
+    }
+    
     h1 {
         font-size: 3em;
     }
@@ -12,24 +17,20 @@
         max-width: 900px;
     }
 
-    header {
-        max-width: 900px;
-        margin: 0 auto 0 auto;
+    nav > ul {
+        display: flex;
+	    flex-direction: row;
+        text-align: center;
+        justify-content: center;
     }
 
-    nav > ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+    nav > ul > li {
+        flex: auto;
     }
 
     #color-palette {
         display: grid;
         grid-template-columns: repeat(4, 25%);
         justify-items: center;
-    }
-
-    footer {
-        max-width: 900px;
-        margin: 0 auto 0 auto;
     }
 }
