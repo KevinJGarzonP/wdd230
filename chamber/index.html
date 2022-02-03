@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Home Page of Kevin Garzon Chamber of Commerce Site">
         <link rel="stylesheet" href="../css/normalize.css">
-        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
     </head>
@@ -16,19 +16,19 @@
         <header>
             <img src="images/OCCLogo.png" alt="Ocobos Chamber Logo" id="tree-logo">
             <div id="social-media">
-                <img src="images/facebook.png" alt="Facebook Logo">
-                <img src="images/linkedin.png" alt="LinkedIn Logo">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook Logo"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn Logo"></a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Menu</a></li>
+            <nav class="nav-space">
+                <ul class="navigation">
+                    <li><a href="#" class="menub">Menu</a></li>
                     <li><a href="./index.html">Discover</a></li>
                     <li><a href="">Directory</a></li>
                     <li><a href="">Join</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
-            <p id="current-date">Tuesday, 01 Febraury 2022</p>
+            <p id="current-date"><span id="Current_Date"></span></p>
         </header>
         <main>
             <section class="main-element" id="hero-img">

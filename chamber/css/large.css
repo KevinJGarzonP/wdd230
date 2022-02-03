@@ -82,11 +82,17 @@
         display: none;
     }
 
-    #tree-logo {
-        max-height: 150px;
-    }
-
     #social-media {
         max-width: 100px;
+    }
+
+    #footer-logo {
+        max-height: 150px;
+        margin: auto;
+        grid-row: 1/4;
+    }
+
+    #course-info {
+        grid-column: 2/4;
     }
 }

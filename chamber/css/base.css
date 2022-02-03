@@ -58,7 +58,7 @@ p {
 }
 
 img {
-    max-width: 85%;
+    max-width: 95%;
     margin: 0 auto;
 }
 
@@ -74,26 +74,54 @@ header {
 
 #tree-logo {
     grid-column: 1/2;
-    grid-row: 1/2;
-    max-height: 100px;
+    grid-row: 1/3;
+    max-height: 150px;
     margin: auto;
 }
 
 nav {
     grid-column: 3/4;
     grid-row: 1/2;
+    display: flex;
 }
 
 nav li {
     display: none;
+    margin: auto;
+    height: 100%;
+    width: 100%;    
+}
+
+nav li:hover {
+    background-color: rgb(245, 102, 145);
+}
+
+nav a {
+    display: block;
+    height: 80%;
+    width: 100%;
+    padding-top: 10%;
 }
 
 nav li:first-child {
     display: block;
 }
 
+.wider {
+    grid-column: 1/-1;
+    z-index: 100;
+    background-color: rgb(91, 48, 0);
+    align-items: center;
+    align-content: center;
+}
+
 .responsive li {
-    display: flex;
+    display: block;
+    height: 70px;
+}
+
+.responsive a {
+    padding-top: 3%;
 }
 
 #social-media {
@@ -106,14 +134,20 @@ nav li:first-child {
 }
 
 #current-date {
-    grid-column: 1/4;
+    grid-column: 2/4;
     grid-row: 2/3;
+    margin: auto;
 }
 nav > ul {
     display: flex;
+    align-items: center;
     flex-direction: column;
     text-align: center;
     padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    flex: 1;
 }
 
 main {
@@ -143,8 +177,9 @@ footer {
 }
 
 footer p {
-    font-size: 1em;
+    font-size: 1.3em;
     padding: 2px;
+    margin: auto;
 }
 
 #footer-logo {
