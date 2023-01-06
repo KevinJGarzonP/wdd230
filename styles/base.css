@@ -53,14 +53,21 @@ p {
     text-align: center;
 }
 
+ul {
+    padding-left: 0;
+}
+
 li {
     margin-left: 30px;
     padding-bottom: 5px;
     list-style: none;
 }
 
-hr {
-    margin: 0 25px;
+.card {
+    background-color: rgb(250, 250, 158);
+    border-radius: 5%;
+    padding: 10px;
+    margin: 5px;
 }
 
 #kevin-pic {
