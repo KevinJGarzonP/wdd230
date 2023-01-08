@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Suez+One&display=swap');
+
+body {
+    margin: 0 auto 0 auto;
+    max-width: 900px;
+}
+
+h1, h2, h3 {
+    font-family: 'Suez One', serif;
+    margin: 10px 0px;
+    color: black;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.4em;
+}
+
+h3 {
+    background-color: rgb(252, 230, 193);
+    text-align: center;
+    padding: 10px 0;
+}
+
+h4 {
+    font-family: 'Suez One', serif;
+    font-size: 1.2em;
+    margin: 0;
+    padding-left: 10px;
+    height: 27px;
+}
+
+h5 {
+    font-family: 'Suez One', serif;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin: 0px;
+}
+
+a {
+    color: rgb(47, 0, 255);
+    font-family: 'Darker Grotesque', sans-serif;
+    padding: 0px;
+}
+
+p {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 0px;
+}
+
+img {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    min-height: 150px;
+    text-align: center;
+    background-color: rgb(239, 188, 155);
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.content-section > h2 {
+    padding-left: 15px;
+}
+
+section {
+    background-color: rgb(223, 248, 235);
+    display: grid;
+    max-width: 100%;
+}
+
+#color-palette > div {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+}
+
+#color-palette > div > h5 {
+    margin: auto;
+}
+
+#color-palette {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    padding: 15px 0;
+    background-color: white;
+    justify-items: center;
+}
+
+#color-1 {
+    background-color: rgb(245, 102, 145);
+    margin-top: 15px;
+}
+
+#color-2 {
+    background-color: rgb(91, 48, 0);
+    margin-top: 15px;
+}
+
+#color-3 {
+    background-color: rgb(223, 248, 235);
+    margin-top: 15px;
+}
+
+#color-4 {
+    background-color: rgb(239, 188, 155);
+    margin-top: 15px;
+}
+
+#color-examples {
+    background-color: white;
+    padding: 30px 40px;
+}
+
+#font-content {
+    padding: 30px;
+}
+
+#frame-content > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(239, 188, 155);
+    padding: 5px 0px;
+    text-align: center;
+}
