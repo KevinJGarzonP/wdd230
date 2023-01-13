@@ -9,6 +9,24 @@
         justify-content: space-evenly;
     }
 
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    li.menu-item {
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+    }
+    
+    li.open {
+        display: inline-flex;
+        text-align: center;
+    }
+
     #kevin-profile-pic {
         max-width: 100%;
         grid-column: 1/2;    }

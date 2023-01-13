@@ -19,6 +19,23 @@ nav {
     align-items: center;
 }
 
+li.menu-button {
+    display: flex;
+    justify-content: center;
+}
+
+li.menu-item {
+    display: none;
+}
+
+nav > ul > li:hover {
+    background-color: khaki;
+}
+
+li.open {
+    display: block;
+}
+
 header {
     background-color: khaki;
     display: grid;
