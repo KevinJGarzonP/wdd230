@@ -92,3 +92,26 @@ li {
     width: 150px;
     border-radius: 20px;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode > h2 {
+    color: beige;
+    text-shadow: 3px 3px rgb(107, 107, 107);
+}
+
+.dark-mode > .card > h3 {
+    color: beige;
+    text-shadow: 3px 3px rgb(107, 107, 107);
+}
+
+.dark-mode a {
+    color: rgb(252, 223, 162);
+}
+
+.dark-mode > .card {
+    background-color: rgb(48, 48, 48);
+}

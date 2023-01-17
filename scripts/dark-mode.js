@@ -1,12 +1,10 @@
 const main = document.querySelector("main");
-const darkButton = document.querySelector(".mode");
+const darkButton = document.querySelector("#mode");
+
+console.log(darkButton);
 
 darkButton.addEventListener("click", () => {
-    if (darkButton.textContent.includes("Dark Mode") {
+    if (darkButton.textContent == "Dark Mode") {
         main.classList.toggle("dark-mode");
-        darkButton.textContent = "Light Mode";
-    } else if (main.className == "dark-mode") {
-        main.classList.toggle("light-mode");
-        darkButton.textContent = "Dark Mode";
     }
 })
