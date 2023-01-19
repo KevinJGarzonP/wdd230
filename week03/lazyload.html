@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Images - Kevin Garzón</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading</h1>
+    </header>
+    <main>
+        <picture><img src="./images/sky1.jpg" alt="Sky picture number 1" loading="lazy" width="400" height="600"></picture>
+        <picture><img src="./images/sky2.jpg" alt="Sky picture number 2" loading="lazy" width="400" height="600"></picture>
+        <picture><img src="./images/sky3.jpg" alt="Sky picture number 3" loading="lazy" width="400" height="600"></picture>
+        <picture><img src="./images/sky4.jpg" alt="Sky picture number 4" loading="lazy" width="400" height="600"></picture>
+        <picture><img src="./images/sky5.jpg" alt="Sky picture number 5" loading="lazy" width="400" height="600"></picture>
+        <picture><img src="./images/sky6.jpg" alt="Sky picture number 6" loading="lazy" width="400" height="600"></picture>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="cYear"> </span> .:|:. Kevin J. Garzón P. .:|:. Colombia
+        </p>
+        <p class="highlight" id="lastModified"> 
+            Last Update: <span id="l-update"> </span>
+        </p>
+    </footer>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/getDates.js"></script>
+</body>
+</html>
