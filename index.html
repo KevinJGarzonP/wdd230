@@ -26,10 +26,17 @@
         </ul>
     </nav>
     <header>
-        <img src="./images/kevin-profile-photo.jpg" alt="Kevin Garzón Picture" id="kevin-pic">
+        <img src="./images/kevin-profile-photo.webp" alt="Kevin Garzón Picture" id="kevin-pic" loading="lazy" width="200" height="auto">
         <h1>Kevin Javier Garzón Pulido</h1>
     </header>
     <main class="light-mode">
+        <div id="hero-div">
+            <picture>
+                <source media="(min-width: 960px)" srcset="./images/trujillo-larger.webp">
+                <img src="./images/trujillo-small.webp" alt="Trujillo Temples" loading="lazy" width="400" height="auto">
+            </picture>
+            <div id="hero-label"><p>Perú Trujillo Temple</p></div>
+        </div>
         <h2>WDD 230: Course Activity Portal</h2>
         <section class="card" id="activities">
             <h3>Learning Activities</h3>
@@ -51,6 +58,9 @@
             <h3>Information</h3>
             <p>Weather: </p>
             <p>Number of visits: </p>
+        </section>
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127295.79546460562!2d-75.2568189796603!3d4.412286216172696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c491115f4d5f%3A0xe0cae43859d2401e!2zSWJhZ3XDqSwgVG9saW1h!5e0!3m2!1ses!2sco!4v1674187853145!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>

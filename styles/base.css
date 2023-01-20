@@ -115,3 +115,26 @@ li {
 .dark-mode > .card {
     background-color: rgb(48, 48, 48);
 }
+
+img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#hero-div {
+    position: relative;
+}
+
+#hero-label {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 4vw;
+    color: rgb(107, 68, 8);
+}
+
+#hero-label p {
+    font-family: 'Poller One', cursive;
+    background-color: rgba(248, 240, 230, 0.5);
+    padding: 10px;
+}
