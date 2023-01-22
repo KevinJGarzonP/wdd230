@@ -2,16 +2,16 @@ const entrada = document.querySelector("#favchap");
 const boton = document.querySelector("button");
 const lista = document.querySelector("#list");
 
-let chapters = getChapterList() || [];
+let chaptersArray = getChapterList() || [];
 
-chapters.forEach((chapter) => {
+chaptersArray.forEach((chapter) => {
     displayList(chapter);
 })
 
 boton.addEventListener("click", function() {
     if (entrada.value !== "") {
         displayList(entrada.value);
-        chapters.push(entrada.value);
+        chaptersArray.push(entrada.value);
         setChapterList();
         entrada.focus();
         entrada.value = "";        
@@ -35,7 +35,7 @@ function displayList (item) {
 }
 
 function setChapterList() {
-    localStorage.setItem("myBOMList", JSON.stringify(chapters));
+    localStorage.setItem("myBOMList", JSON.stringify(chaptersArray));
 }
 
 function getChapterList() {
@@ -44,6 +44,6 @@ function getChapterList() {
 
 function deleteChapter(chapter) {
     chapter = chapter.slice(0, chapter.length - 1);
-    chapters = chapters.filter((entrada) => entrada !== chapter);
+    chaptersArray = chaptersArray.filter((entrada) => entrada !== chapter);
     setChapterList();
 }
