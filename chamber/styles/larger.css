@@ -120,4 +120,13 @@
         margin: auto;
         grid-row: 1/4;
     }
+
+    #discover-main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .discover-img:hover {
+        filter: blur(4px);
+    }
 }
