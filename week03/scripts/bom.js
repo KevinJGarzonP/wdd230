@@ -18,10 +18,10 @@ boton.addEventListener("click", function() {
     }
 });
 
-function displayList (entrada) {
+function displayList (item) {
     const elemento = document.createElement("li");
     const quitar = document.createElement("button");
-    elemento.textContent = entrada.value;
+    elemento.textContent = item;
     quitar.textContent = "❌";
     quitar.ariaLabel = "delete button";
     elemento.appendChild(quitar);
@@ -29,5 +29,21 @@ function displayList (entrada) {
 
     quitar.addEventListener("click", function() {
         lista.removeChild(elemento);
+        deleteChapter(elemento.textContent);
+        entrada.focus();
     })
+}
+
+function setChapterList() {
+    localStorage.setItem("myBOMList", JSON.stringify(chapters));
+}
+
+function getChapterList() {
+    return JSON.parse(localStorage.getItem("myBOMList"));
+}
+
+function deleteChapter(chapter) {
+    chapter = chapter.slice(0, chapter.length - 1);
+    chapters = chapters.filter((entrada) => entrada !== chapter);
+    setChapterList();
 }
