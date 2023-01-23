@@ -1,4 +1,4 @@
-const visitsSpan = document.querySelector("#numver-visits");
+const visitsSpan = document.querySelector("#number-visits");
 let numberVisits = 0;
 
 function getNumberVisits () {
