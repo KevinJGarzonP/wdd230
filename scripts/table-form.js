@@ -4,32 +4,32 @@ const emailForm = document.querySelector("#email");
 const rateForm = document.querySelector("#rating");
 const passForm = document.querySelector("#password");
 
+const form = document.querySelector("#contact-info");
 
-const table = document.querySelector("#form-table");
 const user = document.querySelector("#name-value");
 const email = document.querySelector("#email-value");
 const rate = document.querySelector("#rate-value");
 const pass = document.querySelector("#pass-value");
 
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
+})
+
 submitForm.addEventListener("click", () => {
-    let nameValue = nameForm.value;
-    let emailValue = emailForm.value;
-    let rateValue = rateForm.value;
-    let passValue = passForm.value;
 
     if (nameForm.value) {
-        user.innerHTML = nameValue;
+        user.innerHTML = nameForm.value;
     }
 
     if (emailForm.value) {
-        email.textContent = emailValue;
+        email.textContent = emailForm.value;
     }
 
     if (rateForm.value) {
-        rate.textContent = rateValue;
+        rate.textContent = rateForm.value;
     }
 
     if (passForm.value) {
-        pass.textContent = passValue;
+        pass.textContent = passForm.value;
     }
 })
