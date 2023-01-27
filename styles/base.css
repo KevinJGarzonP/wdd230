@@ -147,9 +147,11 @@ img {
 }
 
 form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 20px;
     margin-top: 10px;
     background-color: var(--back-color2);
     border-radius: 5%;
@@ -159,13 +161,8 @@ form {
     grid-column: 2/3;
 }
 
-label, br {
-    grid-column: 1/2;
-    text-align: right;
-    padding-right: 10px;
-}
-
 input {
+    height: 40px;
     max-width: 200px;
 }
 
