@@ -44,7 +44,7 @@
                 <li>Week 01: <a href="./week01/holygrail.html">Holy Grail</a> | <a href="#">Media Query</a> | <a href="./week01/chamber-site-plan.html">Chamber Site Plan</a></li>
                 <li>Week 02: <a href="./week02/design.html">Desgin Principles</a> | <a href="https://codepen.io/kevinjgarzonp/pen/NWBpZOg">Hamburguer Menu</a> | <a href="./week02/bom.html">BoM Top List</a></li>
                 <li>Week 03: <a href="./week03/images/landscape.webp">WebP</a> | <a href="./week03/lazyload.html">Lazy Loading</a> | <a href="https://codepen.io/kevinjgarzonp/pen/vYapBJO">Srcset Activity</a> | <a href="./week03/bom.html">Local Storage</a></li>
-                <li>Week 04: <a href="#"></a></li>
+                <li>Week 04: <a href="https://codepen.io/kevinjgarzonp/pen/KKBewbE">Pseudo Classes</a> | <a href="./week04/images/combinators.png">Combinators</a> | <a href="./week04/tablebuild.html">Table</a> | <a href="./week04/tablebuild.html">Form</a></li>
                 <li>Week 05: <a href="#"></a></li>
                 <li>Week 06: <a href="#"></a></li>
                 <li>Week 07: <a href="#"></a></li>
@@ -62,6 +62,81 @@
         <section id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127295.79546460562!2d-75.2568189796603!3d4.412286216172696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c491115f4d5f%3A0xe0cae43859d2401e!2zSWJhZ3XDqSwgVG9saW1h!5e0!3m2!1ses!2sco!4v1674187853145!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+        <form method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="full-name" required>
+            <br>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="e-mail" required>
+            <br>
+            <label for="rating">Rate the page (<span id="rating-value"></span>)</label>
+            <div id="rate-elements">
+                <input type="range" name="page rating" id="rating" min="1" max="10" list="ten">
+                <div id="ratevalues-div">
+                    <span class="ratevalue">1</span>
+                    <span class="ratevalue">2</span>
+                    <span class="ratevalue">3</span>
+                    <span class="ratevalue">4</span>
+                    <span class="ratevalue">5</span>
+                    <span class="ratevalue">6</span>
+                    <span class="ratevalue">7</span>
+                    <span class="ratevalue">8</span>
+                    <span class="ratevalue">9</span>
+                    <span class="ratevalue">10</span>
+                </div>
+            </div>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="username identifier" id="password" required pattern="(?=.*\W).{5,12}" title="(At least 5 characters, but not more than 12. One of the characters should be a not alphanumeric symbol.)">
+            <br>
+            <label for="repeat-password">Repeat your password</label>
+            <input type="password" name="repeat username identifier" id="repeat-password" required>
+            <br>
+            <div id="messageform"></div>
+            <br>
+            <input type="button" value="Submit" id="submitButton">
+
+            <datalist id="ten">
+                <option label="1">1</option>
+                <option label="1">2</option>
+                <option label="1">3</option>
+                <option label="1">4</option>
+                <option label="1">5</option>
+                <option label="1">6</option>
+                <option label="1">7</option>
+                <option label="1">8</option>
+                <option label="1">9</option>
+                <option label="1">10</option>
+            </datalist>
+        </form>
+
+        <table id="form-table">
+            <caption>Form Input</caption>
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name;</td>
+                    <td><span is="name-value"></span></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><span is="email-value"></span></td>
+                </tr>
+                <tr>
+                    <td>Rating:</td>
+                    <td><span is="rate-value"></span></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><span is="pass-value"></span></td>
+                </tr>
+            </tbody>
+        </table>
     </main>
     <footer>
         <p>
@@ -75,5 +150,8 @@
     <script src="./scripts/ham-menu.js"></script>
     <script src="./scripts/dark-mode.js"></script>
     <script src="./scripts/number-visits.js"></script>
+    <script src="./scripts/rating-page.js"></script>
+    <script src="./scripts/password-validation.js"></script>
+    <script src="./scripts/table-form.js"></script>
 </body>
 </html>

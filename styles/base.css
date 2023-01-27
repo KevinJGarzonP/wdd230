@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Poller+One&display=swap');
 
+:root {
+    --back-color: khaki;
+    --back-color2: rgb(250, 250, 158);
+    --shadow: 3px 3px rgb(107, 107, 107);
+    --beige-color: beige;
+}
+
 body {
     margin: 0 auto 0 auto;
     max-width: 800px;
@@ -8,7 +15,7 @@ body {
 main {
     padding: 20px;
     max-width: 800px;
-    background-color: beige;
+    background-color: var(--beige-color);
     display: flex;
     flex-direction: column;
 }
@@ -29,7 +36,7 @@ li.menu-item {
 }
 
 nav > ul > li:hover {
-    background-color: khaki;
+    background-color: var(--back-color);
 }
 
 li.open {
@@ -37,14 +44,14 @@ li.open {
 }
 
 header {
-    background-color: khaki;
+    background-color: var(--back-color);
     display: grid;
     grid-template-columns: auto auto;
     border-radius: 15px 15px 0 0;
 }
 
 footer {
-    background-color: khaki;
+    background-color: var(--back-color);
     border-radius: 0 0 15px 15px;
 }
 
@@ -81,7 +88,7 @@ li {
 }
 
 .card {
-    background-color: rgb(250, 250, 158);
+    background-color: var(--back-color2);
     border-radius: 5%;
     padding: 10px;
     margin: 5px;
@@ -99,13 +106,13 @@ li {
 }
 
 .dark-mode > h2 {
-    color: beige;
-    text-shadow: 3px 3px rgb(107, 107, 107);
+    color: var(--beige-color);
+    text-shadow: var(--shadow);
 }
 
 .dark-mode > .card > h3 {
-    color: beige;
-    text-shadow: 3px 3px rgb(107, 107, 107);
+    color: var(--beige-color);
+    text-shadow: var(--shadow);
 }
 
 .dark-mode a {
@@ -137,4 +144,57 @@ img {
     font-family: 'Poller One', cursive;
     background-color: rgba(248, 240, 230, 0.5);
     padding: 10px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0;
+    margin-top: 10px;
+    background-color: var(--back-color2);
+    border-radius: 5%;
+}
+
+#rate-elements {
+    grid-column: 2/3;
+}
+
+label, br {
+    grid-column: 1/2;
+    text-align: right;
+    padding-right: 10px;
+}
+
+input {
+    max-width: 200px;
+}
+
+#rating {
+    width: 200px;
+}
+
+#ratevalues-div {
+    width: 209px;
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    background-color: var(--back-color2);
+    margin: 20px auto;
+
+}
+
+thead {
+    background-color: var(--back-color);
+}
+
+td, th {
+    width: 150px;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+caption {
+    padding: 5px 15px;
 }
