@@ -323,3 +323,9 @@ form label.text-label input {
 .form-button:hover {
     background-color: rgb(245, 102, 145);
 }
+
+#thankyou-main {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px;
+}
