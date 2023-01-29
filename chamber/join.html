@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>
-            Home Page Ocobos' Chamber of Commerce
+            Join Page Ocobos' Chamber of Commerce
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Home Page of Kevin Garzon Chamber of Commerce Site">
+        <meta name="description" content="Join Page of Kevin Garzon Chamber of Commerce Site">
         <meta name="author" content="Kevin Garzon">
         <meta property="og:title" content="WDD230 Kevin Garzon Ocobos' Chamber of Commerce">
         <meta property="og:type" content="website">
@@ -35,54 +35,42 @@
             </nav>
             <h1 id="chamber-name">Ocobos' Chamber of Commerce</h1>
         </header>
-        <main>
-            <section class="main-element" id="div-hero">
-                <h2 id="hero-text">Welcome to Ibagué!</h2>
-                <img src="images/pink-tree.jpg" alt="Pink tree picture" id="hero-img">
-                <button class="button">Join the chamber</button>
-            </section>
-            <section class="main-element" id="event">
-                <h2>Events</h2>
-                <p><strong>New eco-friendly businesses trade fair</strong></p>
-                <p>Come and find new ecological products and services to make
-                    your life easier and sustainable</p>
-                <a><p>Know more...</p></a>
-            </section>
-            <section class="main-element" id="weather">
-                <h2>Weather</h2>
-                <img src="images/weather-icon.png" alt="Sun and Rain weather icon">
-                <p>28°C</p>
-                <h3>Rain with Sun</h3>
-            </section>
-            <section class="main-element" id="spotlight">
-                <div class="spot">
-                    <h3>Bee-have</h3>
-                    <h4>Saving the Bees</h4>
-                    <img src="images/bee-icon.png" alt="Bee logo">
-                    <p>If you have a honeycomb in your property. Call us and help the world
-                        saving the bees.
-                    </p>
-                    <a href="#" target="_blank">Web site</a>
+        <main id="join-main">
+            <h2>Join the Ocobos' Chamber of Commerce</h2>
+            
+            <form action="thankyou.html" method="get">
+                <label class="text-label">First Name* <input type="text" name="fname" required></label>
+                <label class="text-label">Last Name* <input type="text" name="lname" required></label>
+                <label class="text-label">Business Position <input type="text" name="title" pattern="(?=.*\W).{7,}"></label>
+                <label class="text-label">Email* <input type="email" name="email" placeholder="example@email.com" required></label>
+                <label class="text-label">Cellphone* <input type="tel" name="cellphone" required></label>
+                <label class="text-label">Business Name* <input type="text" name="business" required></label>
+
+                <div class="selection"> <p>Membership level</p>
+                    <label class="side-label">
+                        <input type="radio" name="membership" value="nonprofit"> Non-profit Membership
+                        <p>For non-profit asociations. No fees.</p>
+                    </label>
+                    <label class="side-label">
+                        <input type="radio" name="membership" value="bronze"> Bronze Membership
+                        <p>10% discount on events.</p>
+                    </label>
+                    <label class="side-label">
+                        <input type="radio" name="membership" value="silver"> Silver Membership
+                        <p>30% discount on events, training and special events.</p>
+                    </label>
+                    <label class="side-label">
+                        <input type="radio" name="membership" value="gold"> Gold Membership
+                        <p>50% discount on events, training, advertising and special events.</p>
+                    </label>
                 </div>
-                <div class="spot">
-                    <h3>Tree-veling</h3>
-                    <h4>The best eco-turism agency</h4>
-                    <img src="images/eco-turism.png" alt="Beach logo">
-                    <p>Travel with us for the most exotic and exciting places in Ibagué and Colombia
-                        while living a nature-friendly experience.
-                    </p>
-                    <a href="#" target="_blank">Web site</a>
-                </div>
-                <div id="spot-3" class="spot">
-                    <h3>Sheep-ping</h3>
-                    <h4>Eco daily products</h4>
-                    <img src="images/sheep-icon.png" alt="Sheep logo">
-                    <p>Are you looking for a bamboo teethbrush? Or searching a ecological soap?
-                        You are in the right place. Come and see our on-line shop.
-                    </p>
-                    <a href="#" target="_blank">Web site</a>
-                </div>
-            </section>
+
+                <label class="text-label" id="textarea">Business Description <textarea name="description"></textarea></label>
+
+                <label class="text-label"><input type="hidden" name="time" id="date"></label>
+
+                <input type="submit" value="Join the Chamber" class="form-button">
+            </form>
         </main>
         <footer>
             <div id="footer-1">
