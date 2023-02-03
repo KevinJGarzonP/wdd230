@@ -277,6 +277,8 @@ form label {
     padding: 0;
     color: #5B3000;
     font-weight: bold;
+    background-color: transparent;
+    text-align: left;
 }
 
 .selection {

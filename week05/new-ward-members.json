@@ -1,0 +1,34 @@
+{
+    "familyName" : "Perez",
+    "dateMovedToWard" : "February 30, 2023",
+    "numberOfRecords" : 10,
+    "visitedByBishopric" : true,
+    "familyMembers" : [
+        {
+            "name" : "Dad Perez",
+            "gender" : "male",
+            "birthday" : "November 31, 1960" 
+        },
+        {
+            "name" : "Mom Perez",
+            "gender" : "female",
+            "birthday" : "September 31, 1965" 
+        },
+        {
+            "name" : "Pepito Perez",
+            "gender" : "male",
+            "birthday" : "April 31, 1990" 
+        },
+        {
+            "name" : "Pepita Perez",
+            "gender" : "female",
+            "birthday" : "June 31, 1992" 
+        },
+        {
+            "name" : "Pepa Perez",
+            "gender" : "female",
+            "birthday" : "February 31, 1995" 
+        }
+    ]
+}
+
