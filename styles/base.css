@@ -201,3 +201,7 @@ td, th {
 caption {
     padding: 5px 15px;
 }
+
+#weather-icon {
+    width: 80px;
+}
