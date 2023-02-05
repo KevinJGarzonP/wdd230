@@ -1,0 +1,85 @@
+{
+    "companies" : [
+        {
+            "name": "Bee-have",
+            "address": "Cra. 5c # 205-14",
+            "phone": "(+57) 3XX XXX XXXX",
+            "websiteURL": "#",
+            "image": "./images/logoipsum-267.svg",
+            "workers": "30",
+            "level": "Gold"
+        },
+        {
+            "name": "Tree-veling",
+            "address": "Calle 99 # 12D-23",
+            "phone": "(+57) 3XX XXX XXXX",
+            "websiteURL": "#",
+            "image": "./images/logoipsum-268.svg",
+            "workers": "30",
+            "level": "Gold"
+        },
+        {
+            "name": "Sheep-ping",
+            "address": "Cra. 27 # 500-21",
+            "phone": "(+57) 3XX XXX XXXX",
+            "websiteURL": "#",
+            "image": "./images/logoipsum-270.svg",
+            "workers": "30",
+            "level": "Gold"
+        },
+        {
+            "name": "Deer-ection",
+            "address": "Calle 105 # 54-90",
+            "phone": "(+57) 3XX XXX XXXX",
+            "websiteURL": "#",
+            "image": "./images/logoipsum-273.svg",
+            "workers": "30",
+            "level": "Silver"
+        },
+        {
+            "name": "Ant-idote",
+            "address": "Cra. 314 # 11-145",
+            "phone": "(+57) 3XX XXX XXXX",
+            "websiteURL": "#",
+            "image": "./images/logoipsum-275.svg",
+            "workers": "30",
+            "level": "Silver"
+        },
+        {
+            "name": "Otter-wise",
+            "address": "Cra. 65 # 11-1034",
+            "phone": "(+57) 3XX XXX XXXX",
+            "websiteURL": "#",
+            "image": "./images/logoipsum-278.svg",
+            "workers": "30",
+            "level": "Bronze"
+        },
+        {
+            "name": "Al-lion-ce",
+            "address": "Calle 230 # 44-58",
+            "phone": "(+57) 3XX XXX XXXX",
+            "websiteURL": "#",
+            "image": "./images/logoipsum-279.svg",
+            "workers": "30",
+            "level": "Bronze"
+        },
+        {
+            "name": "For-tuna-e",
+            "address": "Cra. 11F #29-65",
+            "phone": "(+57) 3XX XXX XXXX",
+            "websiteURL": "#",
+            "image": "./images/logoipsum-283.svg",
+            "workers": "30",
+            "level": "Non profit"
+        },
+        {
+            "name": "White boar-d",
+            "address": "Cra. 89 # 30-70",
+            "phone": "(+57) 3XX XXX XXXX",
+            "websiteURL": "#",
+            "image": "./images/logoipsum-274.svg",
+            "workers": "30",
+            "level": "Non profit"
+        }
+    ]
+}
