@@ -161,4 +161,34 @@
     form label.side-label input {
         margin: 10px;
     }
+
+    #discovery-main {
+        padding: 3px;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    #directory-main {
+        display: block;
+    }
+
+    .grid-mode {
+        padding: 3px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .list-mode {
+        padding: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list-mode > section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }

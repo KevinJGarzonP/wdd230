@@ -333,3 +333,58 @@ form label.text-label input {
     flex-direction: column;
     padding: 60px 30px;
 }
+
+article > section > a {
+    text-align: center;
+    margin: 5px auto 15px auto;
+    font-size: 2em;
+}
+
+.grid-mode {
+    padding: 3px;
+    display: block;
+}
+
+.grid-mode > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-mode > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-mode > section > img {
+    display: none;
+}
+
+.list-mode > section > .no-list-show {
+    display: none;
+}
+
+.list-mode > section > a {
+    margin: 5px 15px 15px 5px;
+}
+
+#layout-buttons {
+    display: flex;
+    flex-direction: row;
+    max-height: 100px;
+}
+
+#layout-buttons > button {
+    width: 100%;
+}
+
+button > img {
+    max-height: 95%;
+}
+
+.list-mode {
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
