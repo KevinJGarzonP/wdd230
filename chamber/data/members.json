@@ -28,31 +28,13 @@
             "level": "Gold"
         },
         {
-            "name": "Deer-ection",
-            "address": "Calle 105 # 54-90",
-            "phone": "(+57) 3XX XXX XXXX",
-            "websiteURL": "#",
-            "image": "./images/deer-ection.webp",
-            "workers": "30",
-            "level": "Silver"
-        },
-        {
-            "name": "Ant-idote",
-            "address": "Cra. 314 # 11-145",
-            "phone": "(+57) 3XX XXX XXXX",
-            "websiteURL": "#",
-            "image": "./images/ant-idote.webp",
-            "workers": "30",
-            "level": "Silver"
-        },
-        {
             "name": "Otter-wise",
             "address": "Cra. 65 # 11-1034",
             "phone": "(+57) 3XX XXX XXXX",
             "websiteURL": "#",
             "image": "./images/otter-wise.webp",
             "workers": "30",
-            "level": "Bronze"
+            "level": "Silver"
         },
         {
             "name": "Al-lion-ce",
@@ -60,6 +42,24 @@
             "phone": "(+57) 3XX XXX XXXX",
             "websiteURL": "#",
             "image": "./images/al-lion-ce.webp",
+            "workers": "30",
+            "level": "Silver"
+        },
+        {
+            "name": "Deer-ection",
+            "address": "Calle 105 # 54-90",
+            "phone": "(+57) 3XX XXX XXXX",
+            "websiteURL": "#",
+            "image": "./images/deer-ection.webp",
+            "workers": "30",
+            "level": "Bronze"
+        },
+        {
+            "name": "Ant-idote",
+            "address": "Cra. 314 # 11-145",
+            "phone": "(+57) 3XX XXX XXXX",
+            "websiteURL": "#",
+            "image": "./images/ant-idote.webp",
             "workers": "30",
             "level": "Bronze"
         },
