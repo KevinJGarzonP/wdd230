@@ -97,7 +97,6 @@ function displaySpots () {
         spotDiv.className = "spot";
         const spotTitle = document.createElement("h3");
         console.log(companies[spot].name);
-
         spotTitle.textContent = companies[spot].name;
         const spotSubtitle = document.createElement("h4");
         spotSubtitle.textContent = companies[spot].slogan;
