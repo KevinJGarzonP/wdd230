@@ -388,3 +388,9 @@ button > img {
     display: flex;
     flex-direction: column;
 }
+
+.invitation {
+    grid-row: 1/2;
+    background-color: rgb(245, 102, 145);
+    font-size: 2em;
+}

@@ -7,7 +7,9 @@
             "websiteURL": "#",
             "image": "./images/bee-have.webp",
             "workers": "30",
-            "level": "Gold"
+            "level": "Gold",
+            "slogan": "Saving the Bees",
+            "info": "If you have a honeycomb in your property. Call us and help the world saving the bees."
         },
         {
             "name": "Tree-veling",
@@ -16,7 +18,9 @@
             "websiteURL": "#",
             "image": "./images/tree-veling.webp",
             "workers": "30",
-            "level": "Gold"
+            "level": "Gold",
+            "slogan": "The best eco-turism agency",
+            "info": "Travel with us for the most exotic and exciting places in Ibagué and Colombia while living a nature-friendly experience."
         },
         {
             "name": "Sheep-ping",
@@ -25,7 +29,9 @@
             "websiteURL": "#",
             "image": "./images/sheep-ping.webp",
             "workers": "30",
-            "level": "Gold"
+            "level": "Gold",
+            "slogan": "Eco daily products",
+            "info": "Are you looking for a bamboo teethbrush? Or searching a ecological soap? You are in the right place. Come and see our on-line shop."
         },
         {
             "name": "Otter-wise",
@@ -34,7 +40,9 @@
             "websiteURL": "#",
             "image": "./images/otter-wise.webp",
             "workers": "30",
-            "level": "Silver"
+            "level": "Silver",
+            "slogan": "Every book has wisdom for you",
+            "info": "Our bookstore has the perfect book for you. Come and find knowledge and great adventures."
         },
         {
             "name": "Al-lion-ce",
@@ -43,7 +51,9 @@
             "websiteURL": "#",
             "image": "./images/al-lion-ce.webp",
             "workers": "30",
-            "level": "Silver"
+            "level": "Silver",
+            "slogan": "Communication, Safety, Nature",
+            "info": "We ship your packages all over the country with security and protect the nature at the same time."
         },
         {
             "name": "Deer-ection",
@@ -52,7 +62,9 @@
             "websiteURL": "#",
             "image": "./images/deer-ection.webp",
             "workers": "30",
-            "level": "Bronze"
+            "level": "Bronze",
+            "slogan": "Saving the Bees",
+            "info": "If you have a honeycomb in your property. Call us and help the world saving the bees."
         },
         {
             "name": "Ant-idote",
@@ -61,7 +73,9 @@
             "websiteURL": "#",
             "image": "./images/ant-idote.webp",
             "workers": "30",
-            "level": "Bronze"
+            "level": "Bronze",
+            "slogan": "Saving the Bees",
+            "info": "If you have a honeycomb in your property. Call us and help the world saving the bees."
         },
         {
             "name": "For-tuna-e",
@@ -70,7 +84,9 @@
             "websiteURL": "#",
             "image": "./images/for-tuna-e.webp",
             "workers": "30",
-            "level": "Non profit"
+            "level": "Non profit",
+            "slogan": "Saving the Bees",
+            "info": "If you have a honeycomb in your property. Call us and help the world saving the bees."
         },
         {
             "name": "White boar-d",
@@ -79,7 +95,9 @@
             "websiteURL": "#",
             "image": "./images/white-boar-d.webp",
             "workers": "30",
-            "level": "Non profit"
+            "level": "Non profit",
+            "slogan": "Saving the Bees",
+            "info": "If you have a honeycomb in your property. Call us and help the world saving the bees."
         }
     ]
 }
