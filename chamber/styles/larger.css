@@ -21,13 +21,7 @@
     main p {
         font-size: 1.3em;
     } 
-
-    .spot {
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-    }
-
+    
     .spot img {
         max-height: 100px;
     }
