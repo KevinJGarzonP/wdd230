@@ -18,7 +18,6 @@ function displayCompanies(company) {
     let pWorkers = document.createElement("p");
     let pAddress = document.createElement("p");
     let pLevel = document.createElement("p");
-    let pDate = document.createElement("p");
     let img = document.createElement("img");
     let a = document.createElement("a");
 
