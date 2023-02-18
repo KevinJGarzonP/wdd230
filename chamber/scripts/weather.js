@@ -1,7 +1,6 @@
 const currentTemp = document.querySelector("#temperature");
 const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("#weather-caption");
-const windSpeed = document.querySelector("#wind-speed");
 
 let url = "https://api.openweathermap.org/data/2.5/weather?lat=4.4389&lon=-75.2322&appid=01732e19bc8a2c92ed1d2688505d9720&units=imperial";
 
@@ -31,7 +30,7 @@ async function apiFetch() {
     weatherIcon.setAttribute('alt', desc);
     weatherIcon.setAttribute('width', "100px");
     
-    descArray = desc.split(" ");
+    let descArray = desc.split(" ");
 
     for (let i = 0; i < descArray.length; i++) {
       descArray[i] = descArray[i][0].toUpperCase() + descArray[i].substr(1);
